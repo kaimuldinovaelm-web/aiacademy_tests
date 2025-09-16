@@ -1,42 +1,24 @@
-import test from '@playwright/test';
+import { test, expect } from '../fixtures/fixtures';
 import { MainPage } from '../pages/MainPage';
 
-test('Main page opening test', async ({ page }) => {
-  const mainPage = new MainPage(page);
-  await mainPage.open();
-});
-test('Header elements visibility test', async ({ page }) => {
-  const mainPage = new MainPage(page);
-  await mainPage.open();
+test('Header elements visibility test', async ({ mainPage }) => {
   await mainPage.headerHasCorrectAreaSnapshot();
 });
-test('Introduse block visibility test', async ({ page }) => {
-  const mainPage = new MainPage(page);
-  await mainPage.open();
+test('Introduse block visibility test', async ({ mainPage }) => {
   await mainPage.introduceHasCorrectAreaSnapshot();
 });
-test('GPT 5 capabilities description test', async ({ page }) => {
-  const mainPage = new MainPage(page);
-  await mainPage.open();
+test('GPT 5 capabilities description test', async ({ mainPage }) => {
   await mainPage.examplesHasCorrectAreaSnapshot();
 });
-test('Pricing block test', async ({ page }) => {
-  const mainPage = new MainPage(page);
-  await mainPage.open();
+test('Pricing block test', async ({ mainPage }) => {
   await mainPage.pricingCardHasCorrectAreaSnapshot();
 });
-test('Advantages description test', async ({ page }) => {
-  const mainPage = new MainPage(page);
-  await mainPage.open();
+test('Advantages description test', async ({ mainPage }) => {
   await mainPage.advantagesBlockHasCorrectAreaSnapshot();
 });
-test('Updates block test', async ({ page }) => {
-  const mainPage = new MainPage(page);
-  await mainPage.open();
+test('Updates block test', async ({ mainPage }) => {
   await mainPage.updatesBlockHasCorrectAreaSnapshot();
 });
-test('Popular questions test', async ({ page }) => {
-  const mainPage = new MainPage(page);
-  await mainPage.open();
+test('Popular questions test', async ({ mainPage }) => {
   await mainPage.addQuestionsBlockHasCorrectAreaSnapshot();
 });
