@@ -12,6 +12,7 @@ export class MainPage extends BasePage {
   private readonly corporateBlock: Locator;
   private readonly advantagesLocator: Locator;
   private readonly updatesLocator: Locator;
+  private readonly updatesButtonLocator: Locator;
   private readonly popQuestionsButton: Locator;
   private readonly addQuestionsForm: Locator;
 
@@ -41,11 +42,30 @@ export class MainPage extends BasePage {
     );
     this.advantagesLocator = this.page.locator('#rec687400972');
     this.updatesLocator = this.page.locator('#rec863846516');
+    this.updatesButtonLocator = this.page.getByRole('button', {
+      name: 'GPT-4o генерация доступна в',
+    });
     this.popQuestionsButton = this.page.locator('.t585__trigger-button').first();
     this.addQuestionsForm = this.page.locator('#rec687400975');
   }
   async open() {
     await this.page.goto('https://aiacademy.me/');
+  }
+  //actions
+  async studentPriceButtonCheck() {
+    await this.studentPriceButton.click();
+  }
+  async basicPriceButtonCheck() {
+    await this.basicPriceButton.click();
+  }
+  async recomendedPriceButtonCheck() {
+    await this.recomendedPriceButton.click();
+  }
+  async popQuestionsButtonCheck() {
+    await this.popQuestionsButton.click();
+  }
+  async updatesButtonCheck() {
+    await this.updatesButtonLocator.click();
   }
   //assertions
   async headerHasCorrectAreaSnapshot() {

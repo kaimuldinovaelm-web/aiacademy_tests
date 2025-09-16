@@ -12,13 +12,21 @@ test('GPT 5 capabilities description test', async ({ mainPage }) => {
 });
 test('Pricing block test', async ({ mainPage }) => {
   await mainPage.pricingCardHasCorrectAreaSnapshot();
+  await mainPage.studentPriceButtonCheck();
+  await mainPage.open();
+  await mainPage.basicPriceButtonCheck();
+  await mainPage.open();
+  await mainPage.recomendedPriceButtonCheck();
 });
 test('Advantages description test', async ({ mainPage }) => {
   await mainPage.advantagesBlockHasCorrectAreaSnapshot();
 });
 test('Updates block test', async ({ mainPage }) => {
   await mainPage.updatesBlockHasCorrectAreaSnapshot();
+  await mainPage.updatesButtonCheck();
 });
 test('Popular questions test', async ({ mainPage }) => {
   await mainPage.addQuestionsBlockHasCorrectAreaSnapshot();
+  await mainPage.popQuestionsButtonCheck();
+  await mainPage.popQuestionsButtonCheck();
 });
