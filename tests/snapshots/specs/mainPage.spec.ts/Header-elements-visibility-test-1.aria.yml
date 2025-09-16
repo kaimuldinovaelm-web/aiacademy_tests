@@ -1,0 +1,26 @@
+- link "Company":
+  - /url: https://aiacademy.me/
+  - img "Company"
+- navigation:
+  - list:
+    - listitem:
+      - link "О проекте":
+        - /url: https://aiacademy.me/about
+    - listitem:
+      - link "Тарифы":
+        - /url: /#plans
+    - listitem:
+      - link "Вопросы":
+        - /url: /#faq
+    - listitem:
+      - link "Поддержка":
+        - /url: /#help
+    - listitem:
+      - button "Модели"
+    - listitem:
+      - button "Блог"
+    - listitem:
+      - link "Академия OpenAI на русском":
+        - /url: https://aiacademy.me/openai-academy
+- link "Вход":
+  - /url: https://chat.aiacademy.me/login?

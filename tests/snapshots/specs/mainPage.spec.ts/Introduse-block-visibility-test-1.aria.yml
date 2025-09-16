@@ -1,0 +1,9 @@
+- img
+- link "Попробовать за 1 рубль":
+  - /url: https://chat.aiacademy.me/register?auto_buy_sub_tier=3&
+- link "Корпоративный тариф":
+  - /url: "#inc"
+- img "GPT-4 на русском"
+- img "GPT-3.5 на русском"
+- text: с Sonnet 4.0, Google Gemini, Anthropic, Midjourney и DALL·E 3
+- heading "GPT-5 с изображениями, o3, o4 на русском языке без VPN и иностранного номера телефона" [level=1]
