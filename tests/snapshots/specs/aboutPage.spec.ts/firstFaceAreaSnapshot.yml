@@ -1,0 +1,15 @@
+- text: Александр Горный
+- list:
+  - listitem: Бывший директор по стратегии в Mail.Ru Group
+  - listitem: "Автор блога #стартапдня,"
+  - listitem: Управляющий партнер United Investors
+  - listitem: Член Консультативного Совета Яндекса.
+  - listitem: Член Совета Директоров URent — крупнейшего российского сервиса аренды самокатов.
+  - listitem: /Участвовал в инвестиционных сделках на общую сумму около \d+ миллионов долларов/
+- list "Social media links":
+  - listitem:
+    - link "Канал о стартапах":
+      - /url: https://t.me/startupoftheday
+  - listitem:
+    - link "Канал о нейросетях":
+      - /url: https://t.me/aioftheday

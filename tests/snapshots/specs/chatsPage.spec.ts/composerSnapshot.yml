@@ -1,0 +1,16 @@
+- textbox "ENTER для отправки ↑ для редактирования последнего сообщения"
+- button "Прикрепить"
+- button "Текстовые файлы Текстовые файлы"
+- button "Поиск Поиск"
+- button "Размышление Размышление"
+- dialog:
+  - text: Выберите файлы
+  - img
+  - paragraph: Перетащите файл сюда или нажмите
+  - paragraph: "Поддерживаемые форматы: TXT, CSV, DOCX, PDF, XLSX"
+  - button "Новый документ.docx"
+  - link:
+    - /url: /textfiles/10015
+    - img
+  - button "Закрыть"
+  - button "close"

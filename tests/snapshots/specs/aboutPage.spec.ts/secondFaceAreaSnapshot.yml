@@ -1,0 +1,12 @@
+- text: Илья Мартын
+- list:
+  - listitem: Управляющий партнер United Investors.
+  - listitem: Основатель Launch Camp Odyssey — интенсивная программа по запуску стартапов для венчурных студий, венчурных фондов и корпораций.
+  - listitem: Ведущий телеграм канала о генеративных сетях и стартапах.
+- list "Social media links":
+  - listitem:
+    - link "Канал о генеративных сетях и стартапах":
+      - /url: https://t.me/illia_martyn
+  - listitem:
+    - link "Научпоп":
+      - /url: https://t.me/Fourier_series

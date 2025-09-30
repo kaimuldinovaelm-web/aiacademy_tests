@@ -1,0 +1,31 @@
+- list:
+  - listitem:
+    - link "GPT-изображения":
+      - /url: https://aiacademy.me/gptimage
+  - listitem:
+    - link "Доступ в API":
+      - /url: https://aiacademy.me/api
+  - listitem:
+    - link "Преобразование аудио в текст":
+      - /url: https://aiacademy.me/transcribe
+  - listitem:
+    - link "Open AI o1 и o3-mini":
+      - /url: https://aiacademy.me/openai-o1-o3mini
+  - listitem:
+    - link "OpenAI 4o, 4o-mini, 3.5":
+      - /url: https://aiacademy.me/openai-4o-4omini-gpt35
+  - listitem:
+    - link "Anthropic Claude":
+      - /url: https://aiacademy.me/claude-sonnet
+  - listitem:
+    - link "Google Gemini 2.5 Flash":
+      - /url: https://aiacademy.me/gemini-flash
+  - listitem:
+    - link "Google Gemini 2.5 Pro":
+      - /url: https://aiacademy.me/gemini-25-pro
+  - listitem:
+    - link "DeepSeek R1":
+      - /url: https://aiacademy.me/deepseek
+  - listitem:
+    - link /Qwen -[\d,.]+[bkmBKM]+/:
+      - /url: https://aiacademy.me/qwen-32b

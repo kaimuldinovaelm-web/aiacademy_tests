@@ -1,0 +1,21 @@
+- contentinfo:
+  - img
+  - link "Публичная оферта":
+    - /url: /oferta
+  - link "Попробовать за 1 рубль":
+    - /url: https://chat.aiacademy.me/register?tier=3&
+  - img
+  - link "Политика конфиденциальности":
+    - /url: /policy
+  - text: /ОГРНИП \d+ ИНН \d+/
+  - link "Вопросы":
+    - /url: /#faq
+  - link "Midjourney":
+    - /url: /midjourney
+  - link "Тарифы":
+    - /url: /#plans
+  - link "Как работает":
+    - /url: /#how
+  - link "Что умеет":
+    - /url: /#what
+  - iframe

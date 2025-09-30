@@ -1,0 +1,14 @@
+- main:
+  - img
+  - img "Main page banner"
+  - heading "С возвращением" [level=2]
+  - text: Нет аккаунта?
+  - link "Зарегистрироваться":
+    - /url: /register
+  - iframe
+  - text: "- Или -"
+  - textbox "Email адрес"
+  - textbox "Пароль"
+  - button "Войти"
+  - link "Забыли пароль?":
+    - /url: /password_resets/new

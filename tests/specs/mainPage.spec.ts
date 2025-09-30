@@ -26,7 +26,21 @@ test('Updates block test', async ({ mainPage }) => {
   await mainPage.updatesButtonCheck();
 });
 test('Popular questions test', async ({ mainPage }) => {
-  await mainPage.addQuestionsBlockHasCorrectAreaSnapshot();
+  await mainPage.popQuestionsBlockHasCorrectSnapshots();
   await mainPage.popQuestionsButtonCheck();
   await mainPage.popQuestionsButtonCheck();
+});
+test('Write us form test', async ({ mainPage }) => {
+  await mainPage.writeUsBlockHasCorrectAreaSnapshot();
+});
+test('Footer visibility test', async ({ mainPage }) => {
+  await mainPage.footerHasCorrectAreaSnapshot();
+});
+test('Models button and list test', async ({ mainPage }) => {
+  await mainPage.modelsButtonCheck();
+  await mainPage.modelsListHasCorrectAreaSnapshot();
+});
+test('Blog button and list test', async ({ mainPage }) => {
+  await mainPage.blogButtonCheck();
+  await mainPage.blogListHasCorrectAreaSnapshot();
 });

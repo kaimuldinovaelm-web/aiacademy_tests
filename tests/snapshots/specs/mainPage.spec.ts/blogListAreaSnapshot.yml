@@ -1,0 +1,7 @@
+- list:
+  - listitem:
+    - link "Блог Ai Academy":
+      - /url: https://aiacademy.me/blog
+  - listitem:
+    - link "Наш блог в телеграм":
+      - /url: https://t.me/aioftheday

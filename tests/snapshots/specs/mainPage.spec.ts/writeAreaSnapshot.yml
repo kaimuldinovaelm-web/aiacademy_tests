@@ -1,0 +1,14 @@
+- heading "Остались вопросы? Напишите нам!" [level=2]
+- form:
+  - textbox "name"
+  - text: Имя
+  - textbox "email"
+  - text: Email Номер телефона +7
+  - textbox /\(\d+\) \d+-\d+-\d+/
+  - textbox "textarea"
+  - text: Введите текст сообщения
+  - button "Отправить"
+- text: Отправляя форму, Вы соглашаетесь на
+- link "обработку персональных данных":
+  - /url: https://aiacademy.me/policy
+- text: .
